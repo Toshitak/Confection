@@ -14,10 +14,8 @@
         }
                   
         .navbar{
-            background-color: #6f42c1;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            background-color: rgb(81, 45, 168);
+
         }
         .navbar-expand-sm{
             justify-content: flex-start;
@@ -30,7 +28,7 @@
             
          }
         .navbar-nav{
-            display: flex;
+            display:flex;
             padding: 0;
             margin: 0;
             list-style: none;
@@ -40,12 +38,14 @@
             margin-right: auto !important;
         }
         .navbar-logo{
-            height: 30%;
-            width: auto;
+            display: inline-block;
+            width: 50px;
+            padding-left: 100px;
+            padding-top: 20px;
         }
         
         ul{
-            list-style-type: disc;
+            list-style-type: none;
             margin-left: 10px;
             padding-left: 20px;
             flex-direction: row;
@@ -69,6 +69,7 @@
         }
         #login{
             color: white;
+            display: inline-block;
             font-family: 'Arial', 'Helvetica', sans-serif;
             font-size: medium;
         }
@@ -119,7 +120,7 @@
             width: 250px;
             height: 40px;
             border: 0;
-            color: darkblue;
+            color: rgb(81, 45, 168);
             text-align: center;
             text-decoration: none;
             font-size: medium;
@@ -128,7 +129,7 @@
         }
         .carousel{
             position: relative;
-            background-color: darkblue;
+            background-color: rgb(81, 45, 168);
         }
         .carousel-slide{
 
@@ -147,8 +148,11 @@
         }
         .carousel-caption{
             position: absolute;
-            color: black;
+            color: white;
             text-align: center;
+            font-weight: bold;
+            font-size: medium;
+            
         }
         .badge{
             display: inline-block;
@@ -171,13 +175,13 @@
         <div class="container-1">
             <img class="navbar-logo" src="https://developertenzin.github.io/confusion/img/logo.png" alt="Ristorante con Fusion Logo" title="Ristorante con Fusion"/>
             <div class="md:ml-auto flex flex-row" id="Navbar">
-            <ul class="navbar-nav mr-auto inline-block">
+            <ul class="navbar-nav">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#contact">Contact</a></li>
-            </ul>
-            <a href="#login">Login</a>
+             </ul>
+             <a href="#login">Login</a>
             </div>
         </div>
     </nav>
@@ -210,9 +214,10 @@
                 </div>
                 <div class="carousel-item active">
                     <img class="d-block img-fluid" src="https://developertenzin.github.io/confusion/img/uthappizza.png" alt="uthappizza" style="width: 200px;"/>
-                    <div class="carousel-caption">
+                    <div class="carousel-caption ">
                         <h2>Uthappizza
                             <div class="badge danger-badge">HOT</div>
+                            <div class="badge">$4.99</div>
                         </h2>
                     </div>
                 </div>
