@@ -9,18 +9,14 @@
 .navbar{
     background-color: rgb(81, 45, 168);
     height: 60px;
-
-}
-.navbar-expand-sm{
-    justify-content: flex-start;
-}
-.fixed-top{
-    position: relative;
+    width:100%;
+    position: fixed;
+    z-index: 100;
     top: 0;
     left: 0;
     right: 0;
-    
- }
+}
+
 .navbar-nav{
     display:flex;
     padding: 0;
@@ -97,18 +93,21 @@ a:hover{
     text-decoration: underline;
 }
 .header{
-    position: relative;
+    width: 100%;
     padding: 70px 30px 70px 30px;
     margin: 0px auto;
+    margin-top: 5%;
     background-color: rgb(150, 115, 200);
     color: floralwhite;
+    left: 0;
+    right: 0;
 }
 .container-2{
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
-    height: 130px;
+    height: 150px;
 }
 h1{
     font-weight: bolder;
@@ -141,7 +140,7 @@ p{
 }
 .button{
     background-color: rgb(230, 182, 60);
-    width: 250px;
+    width: 240px;
     height: 40px;
     border: 0;
     color: rgb(81, 45, 168);
@@ -152,12 +151,13 @@ p{
     border-radius: 5px;
     margin-top: 25px;
 }
+.container-3{
+    display: flex;
+    overflow: -1;
+}
 .carousel{
     position: relative;
     background-color: rgb(81, 45, 168);
-}
-.carousel-slide{
-
 }
 .carousel-inner{
     position: relative;
@@ -288,6 +288,11 @@ p{
     width: 532px;
     padding-left: 30px;
     margin: 5px;
+    
+}
+.buffet-img{
+    padding-left: 50px;
+    padding-top: 15px;
 }
 .promotions{
 
@@ -322,4 +327,27 @@ p{
     padding-left: 150px;
     padding-bottom: 20px;
 }
+.container-7{
+    background-color: rgb(209, 196, 233);
+    height:auto;
+}
+.homepage-end{
+    display: flex;
+}
+.footer{
+    padding-left: 120px;
+    display: block;
+}
+.address{
+    display: block;
+    font-style: normal;
+    padding-left: 120px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
