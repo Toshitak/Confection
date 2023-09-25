@@ -172,13 +172,22 @@ p{
 .glance{
     border: 2px solid rgb(33, 37, 41) ;
 }
-.glance-tin{
-   
-}
-
-.glance-body{
-    
-}
 .glance-data{
   padding: 0px 50px 0px 50px;
 }
+.container-7{
+    background-color: rgb(209, 196, 233);
+}
+.homepage-end{
+    display: flex;
+}
+.footer{
+    padding-left: 120px;
+    display: block;
+}
+.address{
+    display: block;
+    font-style: normal;
+    padding-left: 120px;
+}
+
