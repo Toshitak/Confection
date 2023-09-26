@@ -185,3 +185,15 @@ p{
 .email-button:hover{
     background-color: rgb(62, 143, 62);
 }
+.form-horizontal{
+    
+}
+.form-group{
+    display: flex;
+}
+.check-box{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 178px;
+    padding-top: 20px;
+}
