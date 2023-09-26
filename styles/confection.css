@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 .container-1{
     width: 100%;
     padding-right: 15px;
@@ -102,6 +105,7 @@ a:hover{
     left: 0;
     right: 0;
 }
+
 .container-2{
     width: 100%;
     display: flex;
