@@ -7,26 +7,33 @@
     <title>Ristorante con Fusion: Contact Us</title>
 </head>
 <body>
-    <div>
-        <nav class="navbar">
-            <div class="container-1" style="display: flex; flex-direction: row;">
-                <img class="navbar-logo" src="https://developertenzin.github.io/confusion/img/logo.png" alt="Ristorante con Fusion Logo" title="Ristorante con Fusion"/>
-                <div class="md:ml-auto"  id="Navbar">
+    <nav class="navbar">
+        <div class="container-1" style="display: flex; flex-direction: row;">
+            <img class="navbar-logo" src="https://developertenzin.github.io/confusion/img/logo.png" alt="Ristorante con Fusion Logo" title="Ristorante con Fusion" />
+            <div class="md:ml-auto" id="Navbar">
                 <ul class="navbar-nav mr-auto">
-                    <div style="display: flex; flex-direction: row;">
                     <li class="navbar-item-active"><a href="index.html">Home</a></li>
                     <li class="navbar-item"><a href="about.html">About</a></li>
-                    <li class="navbar-item"><a href="#menu">Menu</a></li>
-                    <li class="navbar-item"><a href="#contactus">Contact us</a></li>
-                    <div style="display: flex; margin-right: 0;">
-                    <a class="login" href="#login">Login</a>
-                    </div>
-                 </ul>
-                </div>
-                </div>
+                    <li class="navbar-item dropdown">
+                        <a href="#menu">Menu</a>
+                        <!-- Add a nested ul for the dropdown menu -->
+                        <ul class="dropdown-menu">
+                            <li><a href="#appetizers">Appetizers</a></li>
+                            <li><a href="#maincourses">Main Courses</a></li>
+                            <li><a href="#desserts">Desserts</a></li>
+                            <li><a href="#drinks">Drinks</a></li><hr>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header" style="font-size: 15px; padding-left: 15px;">Specials</li>
+                            <li><a href="#lunchbuffet">Lunch Buffet</a></li>
+                            <li><a href="#weekendbrunch">Weekend Brunch</a></li>
+                        </ul>
+                    </li>
+                    <li class="navbar-item"><a href="contact.html">Contact us</a></li>
+                    <li class="navbar-item"><a href="#login">Login</a></li>
+                </ul>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
     <div class="header">
         <div class="container-2">
             <div class="row row-header">
