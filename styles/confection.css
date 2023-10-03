@@ -45,6 +45,27 @@ body{
     text-align: left;
    
 }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(81, 45, 168);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 100%;
+    padding: 3px;
+    width: 150px;
+}
+.dropdown-menu li {
+    text-align: left;
+    font-size: small;
+    background-color: rgb(81, 45, 168);
+}
+.navbar-item:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu li a {
+    color: white; 
+    text-decoration: none;
+}
 .mr-auto{
     margin-right: auto !important;
 }
